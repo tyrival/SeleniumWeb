@@ -831,7 +831,7 @@
           .replace(/#/g, '%23')
           .replace(/&/g, '%26')
           .replace(/=/g, '%3D')
-          .replace(/\n\r?/g, '%0D%0A%0A')
+          .replace(/\n\r?/g, '%0D%0A')
         return str
       },
       /**
