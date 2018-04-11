@@ -13,7 +13,7 @@ Vue.config.productionTip = false
 Vue.use(Vuex)
 Vue.use(ElementUI)
 Vue.prototype.$ajax = axios
-Vue.prototype.$ajax.defaults.baseURL = 'http://127.0.0.1:8080';
+Vue.prototype.$ajax.defaults.baseURL = 'http://192.168.2.112:9080';
 
 new Vue({
   el: '#app',
